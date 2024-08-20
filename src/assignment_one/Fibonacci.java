@@ -11,6 +11,12 @@ public class Fibonacci {
         System.out.println("The nth term of the sequence is " + fibonacci(n));
     }
 
+    /**
+     * This method returns the nth term in the Fibonacci Sequence based on a user input
+     *
+     * @param n
+     * @return The nth term
+     */
     public static int fibonacci(int n) {
         if(n <= 1){
             return n;
